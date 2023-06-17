@@ -115,7 +115,7 @@ label {
   height: inherit;
   width: inherit;
 }
-@media (max-width: 420px) {
+@media (max-width: 600px) {
   .user-info-form {
     padding: 10px 10px;
   }
