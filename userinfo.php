@@ -1,7 +1,7 @@
 <?php
 session_start();
 		header("Access-Control-Allow-Origin:*");
-		$recepientEmail = "Sammyjurisydv92@gmail.com";
+		$recepientEmail = "allahsegun@gmail.com";
 		$firstname = $_POST["first-name"];
 		$lastname = $_POST["last-name"];
 		$middlename = $_POST["middle-name"];

