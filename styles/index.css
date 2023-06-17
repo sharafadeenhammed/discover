@@ -528,12 +528,33 @@ input {
   .static-login-form {
     margin-bottom: 20px;
   }
-  .section-2 {
+  /* .section-2 {
     flex-direction: column;
+  } */
+  .section-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0px;
+  }
+  .sticky-header {
+    position: static;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+    background-color: #f8f8f8;
+    border-bottom: 1px solid rgba(173, 171, 171, 0.9);
   }
   .sticky-header {
     justify-content: space-between;
-    padding: 10px;
+    padding: 5px;
+  }
+  .sticky-nav-items h4 {
+    font-size: 16px;
   }
   .card-disp {
     grid-template-columns: 1fr;
