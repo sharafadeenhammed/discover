@@ -1,0 +1,172 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, Verdana, Geneva,
+    Tahoma, sans-serif;
+  background-color: #f8f8f8;
+  color: #f4eded;
+  padding-bottom: 30px;
+}
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, Verdana, Geneva,
+    Tahoma, sans-serif;
+  background-color: #efe8e8;
+  height: 188vh;
+  background-image: url("./netflixBg.jpg");
+  background-repeat: no-repeat;
+  position: relative;
+}
+.container::before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0px;
+  right: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+  box-shadow: inset 150px 0px 150px rgba(0, 0, 0, 0.5),
+    inset -150px -150px 150px rgba(0, 0, 0, 0.5);
+}
+.header {
+  position: relative;
+  padding-top: 20px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+  z-index: 1000;
+  display: block;
+}
+.logo {
+  z-index: 1000;
+}
+.popout {
+  z-index: 10000;
+}
+.input-container {
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  position: absolute;
+  right: 50%;
+  padding: 60px 68px 150px 68px;
+  width: 500px;
+  transform: translateX(50%);
+}
+.input-header {
+  color: aliceblue;
+  z-index: 1000;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.field-container {
+  position: relative;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.input {
+  display: block;
+  width: 100%;
+  padding: 20px 5px 5px 20px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: #333;
+  color: #fff;
+  font-weight: 600;
+  font-size: 16px;
+}
+.input-label {
+  position: absolute;
+  top: 50%;
+  transition: 0.2s;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #8c8c8c;
+}
+.toggle-btn {
+  position: absolute;
+  right: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+  user-select: none;
+  font-size: 14px;
+  color: #8c8c8c;
+}
+.input-focus {
+  top: 10px;
+  font-size: 13px;
+}
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  background-color: #e50914;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.remember {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #b3b3b3;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.new {
+  font-size: 16px;
+  color: #b3b3b3;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.sign-up-btn {
+  color: #fff;
+  font-weight: 500;
+}
+.sign-up-btn:hover,
+.learn-more:hover {
+  text-decoration: underline;
+}
+.input-footer {
+  color: #8c8c8c;
+  font-size: 13px;
+}
+.learn-more {
+  background-color: transparent;
+  border: none;
+  color: #0071eb;
+  cursor: pointer;
+}
+.footer {
+  min-height: 150px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  color: #737373;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 30px 50px;
+  padding-left: 200px;
+  font-size: 13px;
+}
+.questions {
+  margin-bottom: 30px;
+}
+.help {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  /* justify-content: space-between; */
+  margin-bottom: 20px;
+}
+.help span:hover {
+  text-decoration: underline;
+}
+.company {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}

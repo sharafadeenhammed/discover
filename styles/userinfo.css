@@ -1,0 +1,173 @@
+.user-info-form {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 10px 17%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.name-group {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 5px 20px;
+}
+label {
+  display: flex;
+  align-items: center;
+}
+.name-group input {
+  background-color: #ffffff;
+  color: #000;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin: 5px 10px 5px 2px;
+  transition: 0.3s;
+}
+.contact-group input {
+  background-color: #ffffff;
+  color: #000;
+  margin-right: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.contact-group {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.phone {
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+.email {
+  padding: 10px 20px;
+  transition: 0.3s;
+}
+.address-group {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+.address {
+  margin: 5px 2px;
+  width: 95%;
+  transition: 0.3s;
+  background-color: #ffffff;
+  color: #000;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.city-info {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.city-info > input {
+  background-color: #ffffff;
+  color: #000;
+  transition: 0.3s;
+  margin: 5px 2px;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.submit-btn-cont {
+  padding: 5px 20px;
+}
+.submit-btn {
+  color: #fff;
+  background-color: rgb(20, 119, 200);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  padding: 15px 25px;
+  cursor: pointer;
+}
+.submit-btn:hover {
+  background-color: rgb(8, 79, 137);
+}
+.input-border {
+  border: 1px solid rgb(182, 184, 185);
+}
+
+.spinner {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+}
+.spinner img {
+  height: inherit;
+  width: inherit;
+}
+@media (max-width: 420px) {
+  .user-info-form {
+    padding: 10px 10px;
+  }
+  .name-group {
+    padding: 5px;
+  }
+  .name-group input {
+    padding: 10px 5px;
+    margin-right: 5px;
+    width: 100px;
+  }
+  .contact-group {
+    padding: 5px;
+    width: 100%;
+    margin: 0px;
+    grid-template-columns: 1fr 2fr;
+  }
+  .phone {
+    padding: 10px 0px;
+  }
+  .contact-group input {
+    margin-right: 5px;
+    width: 100px;
+  }
+  .address-group {
+    padding: 5px 0px;
+    margin-bottom: 20px;
+  }
+  .address {
+    margin: 5px 2px;
+    width: 95%;
+    transition: 0.3s;
+    background-color: #ffffff;
+    color: #000;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .city-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .city-info > input {
+    background-color: #ffffff;
+    color: #000;
+    transition: 0.3s;
+    margin: 5px 2px;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .submit-btn-cont {
+    padding: 5px 20px;
+  }
+}
